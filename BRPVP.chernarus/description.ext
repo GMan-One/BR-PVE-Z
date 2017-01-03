@@ -1,0 +1,142 @@
+author = "BRPVP Team changed by zimm794";
+onLoadMission = "BRPVP Chernarus";
+onLoadIntro = "BRPVP Chernarus";
+onLoadName = "BRPVP Chernarus";
+//loadScreen = "\a3\map_stratis\data\ui_stratis_ca.paa";
+loadScreen = "splash.jpg";
+joinUnassigned = 0;
+respawnDelay = 5;
+respawn = 3;
+disabledAI = 1;
+enableDebugConsole = 1;
+respawnOnStart = 0;
+onPauseScript = "";
+disableRandomization[] = {"All"};
+respawnTemplates[] = {};
+saving = 0;
+enableItemsDropping = 0;
+skipLobby = 1;
+respawnButton = 1;
+respawnDialog = 0;
+onLoadIntroTime = false;
+onLoadMissionTime = false;
+disableChannels[] = {0,2,6};
+class Header {
+	gameType = Survive;
+	minPlayers = 1;
+	maxPlayers = 120;
+};
+class CfgSounds {
+	sounds[] = {};
+	class constructing {
+		name = "BRPVP_constructing";
+		sound[] = {"BRP_sons\constructing.ogg",0.5,1};
+		titles[] = {};
+	};
+	class achou_loot {
+		name = "BRPVP_achou_loot";
+		sound[] = {"BRP_sons\achou_loot.ogg",0.2,1};
+		titles[] = {};
+	};
+	class tema {
+		name = "BRPVP_tema";
+		sound[] = {"BRP_sons\tema.ogg",0.5,1};
+		titles[] = {};
+	};
+	class heal {
+		name = "BRPVP_heal";
+		sound[] = {"BRP_sons\heal.ogg",1,1};
+		titles[] = {};
+	};
+	class semtiro {
+		name = "BRPVP_semtiro";
+		sound[] = {"BRP_sons\semtiro.ogg",1,1};
+		titles[] = {};
+	};
+	class comtiro {
+		name = "BRPVP_comtiro";
+		sound[] = {"BRP_sons\comtiro.ogg",1,1};
+		titles[] = {};
+	};
+	class batida {
+		name = "BRPVP_batida";
+		sound[] = {"BRP_sons\batida.ogg",1,1};
+		titles[] = {};
+	};
+	class hint {
+		name = "BRPVP_hint";
+		sound[] = {"BRP_sons\hint.ogg",0.2,1};
+		titles[] = {};
+	};
+	class abrevault {
+		name = "BRPVP_abrevault";
+		sound[] = {"BRP_sons\abrevault.ogg",1,1};
+		titles[] = {1, "Opening Vault!"};
+	};
+	class fechavault {
+		name = "BRPVP_fechavault";
+		sound[] = {"BRP_sons\fechavault.ogg",1,1};
+		titles[] = {1, "Closing Vault..."};
+	};
+	class coracao {
+		name = "BRPVP_coracao";
+		sound[] = {"BRP_sons\coracao.ogg",1,1};
+		titles[] = {1, "Transfusion process started..."};
+	};
+	class walker {
+		name = "BRPVP_walker";
+		sound[] = {"BRP_sons\walker.ogg",0.60,1};
+		titles[] = {};
+	};
+	class negocio {
+		name = "BRPVP_negocio";
+		sound[] = {"BRP_sons\negocio.ogg",0.65,1};
+		titles[] = {};
+	};
+	class granted {
+		name = "BRPVP_granted";
+		sound[] = {"BRP_sons\granted.ogg",0.35,1};
+		titles[] = {};
+	};
+	class ugranted {
+		name = "BRPVP_ugranted";
+		sound[] = {"BRP_sons\ubber_granted.ogg",0.2,1};
+		titles[] = {};
+	};
+	class erro {
+		name = "BRPVP_erro";
+		sound[] = {"BRP_sons\erro.ogg",0.4,1};
+		titles[] = {};
+	};
+	class radarbip {
+		name = "BRPVP_radarbip";
+		sound[] = {"BRP_sons\radarbip.ogg",0.35,1};
+		titles[] = {};
+	};
+	class ciclo {
+		name = "BRPVP_ciclo";
+		sound[] = {"BRP_sons\ciclo.ogg",0.15,1};
+		titles[] = {};
+	};
+	class sirene {
+		name = "BRPVP_sirene";
+		sound[] = {"BRP_sons\sirene.ogg",2,1};
+		titles[] = {};
+	};
+	class elevador {
+		name = "BRPVP_elevador";
+		sound[] = {"BRP_sons\elevador.ogg",1,1};
+		titles[] = {};
+	};
+	class destroy {
+		name = "BRPVP_destroy";
+		sound[] = {"BRP_sons\destroy.ogg",1,1};
+		titles[] = {};
+	};
+	class bulldozer {
+		name = "BRPVP_bulldozer";
+		sound[] = {"BRP_sons\bulldozer.ogg",1,1};
+		titles[] = {};
+	};
+};
+#include "infiSTAR_AdminMenu.hpp"
