@@ -66,7 +66,7 @@ if (isNil "BRPVP_primeiraRodadaOk") then {
 	BRPVP_expLegendaSimples = ["matou_player","player_matou","matou_bot","bot_matou","andou","comeu","levou_tiro_cabeca_player","deu_tiro_cabeca_player","levou_tiro_cabeca_bot","deu_tiro_cabeca_bot","itens_construidos","queda","suicidou","matou_veiculo"];
 	BRPVP_acoesClick = [];
 	//FIRST ID IS THE BRPVP/BRPVE DEVELOPER
-	BRPVP_admins = ["76561197975554637","76561197970271711"];
+	BRPVP_admins = ["SteamID","SteamID"];
 	BRPVP_indiceDebugItens = [
 		"%6
 		<t align='left' color='#FFFFFF'>VEH: %5</t><t align='right' color='#FFFFFF'>FPS: %7</t><br/>
